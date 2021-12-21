@@ -1,4 +1,4 @@
-<h1 class="animater fadeIn">{{ heroe.nombre}} <small> {{ heroe.aparicion }}</small></h1>
+<h1 class="animater fadeIn">{{ heroe.nombre | uppercase }} <small> ({{ heroe.aparicion | date:'y' }}) </small></h1>
 <hr>
 
 <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|} animater fadeIn fast">
